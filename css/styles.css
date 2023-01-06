@@ -1,0 +1,156 @@
+/* add your css styles here! */
+body {
+    background-color: #bdfbb5;
+    color: #000000;
+    z-index: 1;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster';
+}
+
+.display4 {
+    color: white;
+    font-size: 20px; 
+}
+
+p {
+    font-family: 'Poppins', serif;
+}
+
+/* Navigation Section */
+
+.navbar-nav .nav-link {
+    color: #000000 !important;
+    font-size: 20px !important;
+}
+
+.navbar-nav a:hover {
+    background-color: #FFFFFF !important;
+    border-radius: 20px;
+}
+
+.navbar-nav a {
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url("..//images/filip-gielda-QKrLdkoYDrc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.hero h1 {
+    text-align: right;
+    margin-right: 300px;
+    padding-top: 300px;
+}
+
+.hero h1 span {
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* Regions Section */
+
+.features h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.row img {
+    max-width: 600px;
+    max-height: 300px;
+    border-radius: 25px;
+}
+
+.row {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding-top: 15px;
+}
+
+.features .container {
+    max-width: 850px;
+}
+
+.features .container h2 {
+    padding-left: 5px;
+}
+
+.features .container p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container img {
+    padding-bottom: 15px;
+}
+
+.container .col {
+    align-items: center;
+    justify-content: center;
+}
+
+/* About Us Section */
+
+.about {
+    background-image: url(/images/istockphoto-835207188-612x612.jpeg);
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.about .header {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about .container {
+    max-width: 1100px;
+}
+
+.appStores2 {
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right: 345px;
+}
+
+/* Footer Section */
+.footer {
+    color: #000000;
+    height: 75px;
+}
+
+.footer .nav {
+    padding-right: 15px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: white;
+}
